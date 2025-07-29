@@ -1,0 +1,17 @@
+[12720:12688:0630/162455.759:INFO:components\enterprise\browser\controller\chrome_browser_cloud_management_controller.cc:202] No machine level policy manager exists.
+[16772:11684:0630/162455.863:INFO:third_party\webrtc\system_wrappers\source\cpu_info.cc:56] Available number of cores: 12
+[14820:11604:0630/162455.863:INFO:third_party\webrtc\system_wrappers\source\cpu_info.cc:56] Available number of cores: 12
+[22332:20844:0630/162455.935:VERBOSE1:components\viz\service\main\viz_main_impl.cc:85] VizNullHypothesis is disabled (not a warning)
+[20984:10660:0630/162456.131:INFO:third_party\webrtc\system_wrappers\source\cpu_info.cc:56] Available number of cores: 12
+[10352:21344:0630/162456.223:INFO:third_party\webrtc\system_wrappers\source\cpu_info.cc:56] Available number of cores: 12
+[12720:12688:0630/162506.146:WARNING:components\download\internal\background_service\controller_impl.cc:1187] Background download complete, client: 6, completion type: 0, file size:5155
+[12720:12688:0630/162506.198:WARNING:components\download\internal\background_service\controller_impl.cc:1187] Background download complete, client: 6, completion type: 0, file size:265059
+[12720:12688:0630/162506.749:WARNING:components\download\internal\background_service\controller_impl.cc:1187] Background download complete, client: 6, completion type: 0, file size:2200227
+[12720:12688:0630/162506.812:WARNING:components\download\internal\background_service\controller_impl.cc:1187] Background download complete, client: 6, completion type: 0, file size:883094
+[12720:12688:0630/162506.901:WARNING:components\download\internal\background_service\controller_impl.cc:1187] Background download complete, client: 6, completion type: 0, file size:45175
+[12720:12688:0630/162507.816:WARNING:components\download\internal\background_service\controller_impl.cc:1187] Background download complete, client: 6, completion type: 0, file size:2747169
+[12720:12688:0630/162507.896:WARNING:components\download\internal\background_service\controller_impl.cc:1187] Background download complete, client: 6, completion type: 0, file size:2992963
+[12720:12688:0630/162507.968:WARNING:components\download\internal\background_service\controller_impl.cc:1187] Background download complete, client: 6, completion type: 0, file size:4680
+[12720:12688:0630/162508.179:WARNING:components\download\internal\background_service\controller_impl.cc:1187] Background download complete, client: 6, completion type: 0, file size:118577
+[19728:16484:0630/162508.947:WARNING:net\extras\sqlite\sqlite_persistent_store_backend_base.cc:176] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:226 to client_task_runner_.
+[19728:16484:0630/162508.947:WARNING:net\extras\sqlite\sqlite_persistent_store_backend_base.cc:176] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:226 to client_task_runner_.
