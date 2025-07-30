@@ -13,7 +13,7 @@ def test_add_profile_right(driver, data):
     page = ProfileRightsPage(driver)
     page.login(data["email"], data["password"])
     page.navigate_to_profile_rights()
-    page.add_profile_right(data["profile_name"], data["menu_name"])
+    page.add_profile_right(data)
 
     # Basic check (customize this for your actual success message or alert)
     assert "Profile" in driver.page_source

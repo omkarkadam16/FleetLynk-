@@ -1,0 +1,17 @@
+[
+  {
+    "email": "demo123@gmail.com",
+    "password": "Demo@123",
+    "franchise_name": "Omkar Logistics",
+    "city": "AHMEDABAD",
+    "address": "ABC Street",
+    "contact_person": "Omkar kadam",
+    "pincode": "123456",
+    "contact_number": "1234567890",
+    "whatsapp_number": "1234567890",
+    "mobile_number": "1234567890",
+    "email_id": "omkar@gmail.com",
+    "pan_number": "APQPM2710J",
+    "gst_number": "24ABCCM1234A1ZA"
+  }
+]

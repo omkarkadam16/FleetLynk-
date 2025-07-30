@@ -13,10 +13,10 @@ class ProfileRightsPage:
         click_element(self.driver, By.LINK_TEXT, "Master")
         click_element(self.driver, By.LINK_TEXT, "Profile Rights")
 
-    def add_profile_right(self, profile_name, menu_name):
+    def add_profile_right(self, data):
         switch_frames(self.driver, "ProFileBodyForm")
         switch_frames(self.driver, "select2-txtName-container")
-        select_dropdown(self.driver, By.ID, "select2-txtName-container", profile_name)
-        select_dropdown(self.driver, By.ID, "select2-txtMenu-container", menu_name)
+        select_dropdown(self.driver, By.ID, "select2-txtName-container", data["profile_name"])
+        select_dropdown(self.driver, By.ID, "select2-txtMenu-container",data["menu_name"])
         click_element(self.driver, By.ID, "add1")
         click_element(self.driver, By.ID, "btnSaveForm")

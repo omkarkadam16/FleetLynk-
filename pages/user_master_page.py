@@ -27,5 +27,5 @@ class UserMasterPage():
         select_dropdown(self.driver, By.ID, "select2-ddlCompanyAndFranchise-container", data["company"])
         select_dropdown(self.driver, By.ID, "select2-ddlLocation-container", data["location"])
         send_keys(self.driver, By.ID, "txtMobileNo", data["mobile"])
-
         click_element(self.driver, By.ID, "btnSaveForm")
+        time.sleep(4)

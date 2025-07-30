@@ -50,7 +50,7 @@ def select_dropdown(driver, by, value, text):
         input_box = driver.wait.until(EC.visibility_of_element_located((By.CLASS_NAME, "select2-search__field")))
         input_box.clear()
         input_box.send_keys(text)
-        input_box.send_keys(Keys.DOWN)
+        print("Entered:", text)
         input_box.send_keys(Keys.ENTER)
         return True
     except(ex.ElementClickInterceptedException,
@@ -70,3 +70,18 @@ def handle_alert(driver, accept=True, timeout=10):
         return True
     except ex.NoAlertPresentException:
         return False
+
+def upload_file_in_dropzone(self, file_path):
+    try:
+        # Wait for the Dropzone input to appear
+        file_input = self.wait.until(
+            EC.presence_of_element_located((By.CSS_SELECTOR, "input.dz-hidden-input"))
+        )
+        # Send file path to hidden file input
+        file_input.send_keys(file_path)
+        print("✅ File uploaded successfully:", file_path)
+        return True
+    except Exception as e:
+        print("Upload failed:", e)
+        return False
+

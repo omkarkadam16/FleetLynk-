@@ -29,7 +29,7 @@ def driver():
     driver.maximize_window()
     driver.wait = WebDriverWait(driver, 10)
 
-    yield driver  # Yielding the driver to the test functions
+    yield driver  # 🔁 Pauses the fixture to run the test, resumes afterward for teardown
 
     # Teardown code (equivalent to tearDownClass)
     driver.quit()
