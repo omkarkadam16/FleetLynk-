@@ -1,0 +1,18 @@
+fleetlynk_framework/
+│
+├── tests/                          # Test scripts
+│   └── test_profile_rights.py
+│
+├── pages/                          # Page Object Model (POM) files
+│   └── profile_rights_page.py
+│
+├── utilities/
+│   ├── helpers.py                  # Reusable helper functions
+│   └── test_data/
+│       └── profile_rights_data.json  # JSON-based test data
+│
+├── reports/                        # HTML reports generated after test runs
+│
+├── conftest.py                     # WebDriver fixture setup
+├── pytest.ini                      # Pytest configuration
+├── requirements.txt

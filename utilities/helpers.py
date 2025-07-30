@@ -23,6 +23,7 @@ def click_element(driver, by, value, retry=2):
 
 def send_keys(driver, by, value, text):
     try:
+        click_element(driver, by, value)
         element = driver.wait.until(EC.visibility_of_element_located((by, value)))
         element.clear()
         element.send_keys(text)
