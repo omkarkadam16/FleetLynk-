@@ -1,0 +1,17 @@
+[
+  {
+    "email": "demo123@gmail.com",
+    "password": "Demo@123",
+    "customer": "Shree Ram Logistics",
+    "pan": "APQPM2710J",
+    "gst": "29AACCG0527D1Z0",
+    "city": "AHMEDABAD",
+    "address": "ABC Street",
+    "contact_person": "Rajesh Sharma",
+    "pincode": "123456",
+    "contact_number": "1234567890",
+    "whatsapp_number": "1234567890",
+    "mobile_number": "1234567890",
+    "email_id": "omkar@gmail.com"
+  }
+]
