@@ -47,6 +47,7 @@ def switch_frames(driver, element_id):
 def select_dropdown(driver, by, value, text):
     try:
         click_element(driver, by, value)
+        time.sleep(1)
         input_box = driver.wait.until(EC.visibility_of_element_located((By.CLASS_NAME, "select2-search__field")))
         input_box.clear()
         input_box.send_keys(text)
